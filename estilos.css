@@ -1,0 +1,124 @@
+nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    background-color: rgb(100, 149, 155);
+    margin: 25px;
+    padding: 20px;
+    width: 205px;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+body{
+    margin: 0px;
+    background-image: url("enjambre-peces-multi-ed-coral-blando-arrecife-tropical-generado-ia_188544-10058.avif");
+    background-size: cover;
+    min-width: 768px;
+}
+
+header{
+    display: flex;
+}
+
+img{
+    width: 30%;
+    display: flex;
+    margin: 50px;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+
+.integrantes{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer{
+background-color: rgb(100, 149, 155);
+padding: 30px;
+margin: 20px;
+}
+
+main{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.FotoIntegrante{
+    background-color: blue;
+    width: 250px;
+    margin: 20px;
+}
+
+span{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.textonegro{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.textonegro2{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.integrantes2{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
